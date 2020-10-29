@@ -33,6 +33,7 @@ var parcours = []
 # On se servira de ce tableau pour l'animation finale du parcours de l'algorithme
 var visite = []
 
+
 # Algorithme du parcours en largeur
 func parcours_largeur():
 	# On commence par enfiler le premier noeud et le marquer comme visité
@@ -51,6 +52,7 @@ func parcours_largeur():
 	# Le Timer est démarré pour afficher l'animation un fois que l'algorithme a fini son travail
 	$Timer.start(vitesse)
 
+
 # Algorithme de parcours en profondeur
 func parcours_profondeur():
 	# On commence par envoyer la fonction récursive visiteur sur la racine
@@ -66,6 +68,7 @@ func visiteur(noeud):
 		if !visite.has(voisin):
 				visiteur(voisin)
 
+# Fonctions utilitaires pour l'affichage et le GUI
 func _on_Timer_timeout():
 	if !visite.empty():
 		var index = visite.pop_front()

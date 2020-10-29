@@ -1,6 +1,5 @@
 extends Node2D
 
-export(bool) var visite = false
 export(Color) var couleur
 onready var case = $Polygon2D
 
