@@ -1,0 +1,189 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Noeud.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/Main.gd" type="Script" id=2]
+
+[node name="Main" type="Node"]
+script = ExtResource( 2 )
+vitesse = 0.5
+
+[node name="Noeud1" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 352, 160 )
+
+[node name="Noeud2" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 352, 224 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud3" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 352, 288 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud4" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 352, 352 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud5" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 352, 416 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud6" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 416, 160 )
+couleur = Color( 0.486275, 0.486275, 0.486275, 1 )
+
+[node name="Noeud7" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 416, 224 )
+couleur = Color( 0.486275, 0.486275, 0.486275, 1 )
+
+[node name="Noeud8" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 416, 288 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud9" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 416, 352 )
+couleur = Color( 0.486275, 0.486275, 0.486275, 1 )
+
+[node name="Noeud10" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 416, 416 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud11" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 480, 160 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud12" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 480, 224 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud13" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 480, 288 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud14" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 480, 352 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud15" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 480, 416 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud16" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 544, 160 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud17" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 544, 224 )
+couleur = Color( 0.486275, 0.486275, 0.486275, 1 )
+
+[node name="Noeud18" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 544, 288 )
+couleur = Color( 0.486275, 0.486275, 0.486275, 1 )
+
+[node name="Noeud19" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 544, 352 )
+couleur = Color( 0.486275, 0.486275, 0.486275, 1 )
+
+[node name="Noeud20" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 544, 416 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud21" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 608, 160 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud22" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 608, 224 )
+couleur = Color( 0.827451, 0.4, 0.4, 1 )
+
+[node name="Noeud23" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 608, 288 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud24" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 608, 352 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Noeud25" parent="." groups=[
+"Cases",
+] instance=ExtResource( 1 )]
+position = Vector2( 608, 416 )
+couleur = Color( 1, 1, 1, 1 )
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 96.0
+margin_top = 256.0
+margin_right = 257.0
+margin_bottom = 324.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Boutonlargeur" type="Button" parent="VBoxContainer"]
+margin_right = 161.0
+margin_bottom = 20.0
+text = "Parcours en largeur"
+
+[node name="BoutonProfondeur" type="Button" parent="VBoxContainer"]
+margin_top = 24.0
+margin_right = 161.0
+margin_bottom = 44.0
+text = "Parcours en profondeur"
+
+[node name="BoutonReset" type="Button" parent="VBoxContainer"]
+margin_top = 48.0
+margin_right = 161.0
+margin_bottom = 68.0
+text = "Réinitialiser"
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="pressed" from="VBoxContainer/Boutonlargeur" to="." method="_on_Boutonlargeur_pressed"]
+[connection signal="pressed" from="VBoxContainer/BoutonProfondeur" to="." method="_on_BoutonProfondeur_pressed"]
+[connection signal="pressed" from="VBoxContainer/BoutonReset" to="." method="_on_BoutonReset_pressed"]
